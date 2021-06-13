@@ -761,7 +761,7 @@ class _VerticalPointerState extends MultiDragPointerState {
 // VerticalDragGestureRecognizer waits for kTouchSlop to be reached; We don't want that
 // when reordering items
 //
-class _Recognizer extends MultiDragGestureRecognizer<_VerticalPointerState> {
+class _Recognizer extends MultiDragGestureRecognizer {
   _Recognizer({
     required Object? debugOwner,
     PointerDeviceKind? kind,
